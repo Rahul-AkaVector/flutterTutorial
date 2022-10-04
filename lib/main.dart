@@ -1,18 +1,17 @@
 import 'package:flutter/material.dart';
+import 'homepage.dart';
 
 void main() {
   runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  const MyApp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Material(
-        child: Center(child: Container(child: Text("INSTAGRAM CLONE : : :"))),
-      ),
+      home: HomePage(),
     );
   }
 }
