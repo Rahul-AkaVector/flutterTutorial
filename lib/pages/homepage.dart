@@ -7,13 +7,13 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     // ignore: prefer_const_constructors
     return Scaffold(
-      appBar: AppBar(
+     appBar: AppBar(
         title: Text("INSTAGRAM"),
       ),
       body: Center(
-        child:Container(
+        //child: Container(
           child: Text("HMMM"),
-        ),
+        //),
       ),
     );
   }
