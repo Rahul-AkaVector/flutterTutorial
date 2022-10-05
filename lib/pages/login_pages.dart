@@ -2,6 +2,8 @@ import 'dart:ui';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter/material.dart';
 
+import '../utils/routes.dart';
+
 class LoginPage extends StatelessWidget {
   const LoginPage({super.key});
 
@@ -51,7 +53,7 @@ class LoginPage extends StatelessWidget {
               ),
               ElevatedButton(
                 onPressed: () {
-                  print("buttonpressed");
+                  Navigator.pushNamed(context, MyRoutes.homeRoute);
                 },
                 child: Text(
                   "Login",
